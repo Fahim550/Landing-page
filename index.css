@@ -1,0 +1,178 @@
+:root{
+    --primary:#3155e7;
+    --primary-dark:#2045d6;
+    --black:#010101;
+    --gray-1:#788190;
+    --gray-2:#d3d4db;
+    --white:#FFFFFF;
+
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Plus+Jakarta+Sans:ital,wght@1,800&family=Poppins:wght@700&display=swap');
+
+body{
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--white);
+    margin: 10px 15px;
+}
+.btn{
+    
+    border-radius: 50px;
+}
+.btn-outline-secondary{
+   
+    padding: 12px 50px;
+}
+.btn-outline-secondary:before{
+    background-color: #2045d6;
+    border: 1px solid var(--gray-1);
+}
+.navbar .btn-outline-secondary{
+    border: 1px solid var(--gray-1);
+    border-radius:8px ;
+    color: var(--black);
+    line-height: 20px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav{
+    padding: 30px 16px;
+   
+}
+.nav-link{
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+.navbar-nav .active{
+    font-weight: bold;
+    color: var(--black);
+}
+section.hero{
+    padding: 80px 0;
+}
+.hero .text{
+    font-size: 48px;
+    line-height: 73px;
+    font-weight: 800;
+    color: var(--black);
+}
+.hero .buttons{
+    padding-top: 60px;
+}
+.hero .btn{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.setup{
+    padding: 287px 0;
+}
+.text-head h3{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+.text-head p{
+    padding: 25px;
+    color: var(--gray-1);
+}
+.item{
+    padding: 60px 0;
+}
+.item .icon{
+    padding-bottom: 30px;
+}
+.item .des h5{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--black);
+}
+.item .des p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: var(--gray-1);
+}
+
+.information .info-text h3{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: var(--black);
+}
+.information .info-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding: 20px;
+}
+.information-1{
+    margin-top: 15rem;
+   }
+.information-1 .info-text h3{
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 700;
+    color: var(--black);
+}
+.information-1 .info-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding: 20px;
+}
+footer{
+   margin-top: 160px;
+}
+footer a{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--black);
+}
+footer .copy{
+    margin : 25px 0;
+    font-size: 14px;
+    color: var(--gray-1);
+    line-height: 17px;
+}
+
+@media (max-width:576px){
+    .navbar{
+        padding: 20px 0;
+    }
+    .nav-link{
+        margin-left: 0px ;
+    }
+    section.hero img{
+        padding-top:2.5rem ;
+    }
+    .hero .text{
+        font-size: 38px;
+        font-style: 800;
+        line-height: 53px;
+    }
+    section.hero,
+    .setup,.information{
+        text-align: center;
+    }
+    .btn{
+        display: block;
+        margin: 1rem;
+
+    }
+    section .setup{
+        padding: 50px 0;
+    }
+
+}
